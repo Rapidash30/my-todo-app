@@ -26,5 +26,5 @@ st.text_input(label = " ", placeholder = "Enter task here.",
              on_change = add_todo, key = "new_todo" )
 
 
-print("hi")
-st.session_state
+
+

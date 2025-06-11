@@ -13,6 +13,5 @@ def write(contents, text_file="todos.txt"):
     """Writes each item in list 'content' line-wise in todos.txt."""
     with open(text_file, "w") as file:
         file.writelines(contents)
-def bold(text):
-    return f"\033[1m{text}\033[0m"
+
 
